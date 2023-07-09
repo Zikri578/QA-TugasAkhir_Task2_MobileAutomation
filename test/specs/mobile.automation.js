@@ -22,6 +22,7 @@ describe('Open Application', () => {
         await inputTinggi.click();
         await inputTinggi.setValue('170');
         await pilihJenisKelamin.click();
+        await driver.hideKeyboard()
         await buttonNext.click();
 
         // memanggil variabel aktivitas yang ada diatas
